@@ -9,4 +9,5 @@ npx tsc --init
 touch src/index.tsx src/App.tsx
 npm i -D @babel/core @babel/preset-env @babel/preset-react @babel/preset-typescript
 touch babel.config.json
-npm i -D webpack webpack-cli webpack-dev-server html-webpack-plugin babel-loader
+npm i -D webpack webpack-cli webpack-dev-server html-webpack-plugin babel-loader webpack-merge
+npm i -D css-loader style-loader sass-loader sass
