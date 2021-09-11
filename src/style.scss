@@ -2,17 +2,49 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-  color: #343434;
-
+  color: rgb(95, 72, 83);
+  
   &:hover {
-    color: #fde;
+    color: #343434;
   }
 }
 
 .main {
     margin: 1rem;
     padding: 1.2rem;
+}
+
+.card {
+  margin: 1.2rem;
+  padding: 1.8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  
+  width: fit-content;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,0.5466387238489145) 0%, rgba(9,9,121,1) 35%, rgba(171,171,171,1) 76%, rgba(0,212,255,1) 100%); 
+  border-radius: .2rem;
+
+  color: rgb(205, 211, 243);
+  line-height: 1.7rem;
+  h3 {
+    font-size: 2rem;
+    margin-bottom: .5rem;
+  }
+  div {
+    width: fit-content;
+  }
+  img{
+    height: 120px;
+    margin-left: 3rem;
+  }
+  &:hover {
+    color: #fff;
+  }
 }
